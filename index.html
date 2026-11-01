@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>State Core Gen Eds</title>
+
+  <!-- 1️⃣  Load the shared style and script files -->
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <!-- Page heading -->
+  <h1>State Core Gen Eds</h1>
+
+  <!-- Main drag‑and‑drop area (matches the selectors in style.css / script.js) -->
+  <div id="board">
+    <!-- Courses list – the items will be populated by script.js -->
+    <div id="courses">
+      <h2>Courses</h2>
+      <div id="course-list"></div>
+    </div>
+
+    <!-- Category boxes -->
+    <div class="categories">
+      <div id="cat-Composition" class="category" data-cat="Composition">
+        <h3>Composition</h3>
+      </div>
+      <div id="cat-Humanities" class="category" data-cat="Humanities">
+        <h3>Humanities</h3>
+      </div>
+      <div id="cat-SSB" class="category" data-cat="Social and Behavioral Sciences">
+        <h3>Social & Behavioral Sciences</h3>
+      </div>
+    </div>
+  </div>
+
+  <!-- Confetti canvas – hidden until the user finishes correctly -->
+  <div id="confetti"></div>
+</body>
+</html>
