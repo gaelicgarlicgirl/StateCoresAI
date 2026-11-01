@@ -5,7 +5,7 @@ const courseCat = {
   'ARH2000':'Humanities','MUL2010':'Humanities','THE2000':'Humanities',
   'PHI2010':'Humanities','LIT2000':'Humanities',
   'AMH2010':'Social and Behavioral Sciences','AMH2020':'Social and Behavioral Sciences',
-  'ENC2013':'Social and Behavioral Sciences','PSY2012':'Social and Behavioral Sciences',
+  'ECO2013':'Social and Behavioral Sciences','PSY2012':'Social and Behavioral Sciences',
   'ANT2000':'Social and Behavioral Sciences','POS2041':'Social and Behavioral Sciences'
 };
 const courses = Object.keys(courseCat);
